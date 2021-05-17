@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:latest
 
 RUN apk add --no-cache libressl-dev musl-dev libffi-dev gcc g++ make libpcap-dev bash git
 RUN apk add --no-cache python3
