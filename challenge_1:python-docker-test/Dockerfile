@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache libressl-dev musl-dev libffi-dev gcc g++ make libpcap-dev bash git
 RUN apk add --no-cache python3
-
+RUN apk add --no-cache cmd:pip3
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
