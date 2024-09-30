@@ -1,7 +1,7 @@
 <h1>Challenge 4: Automated Certificate Expiration Checker</h1>
 
 Challenge 4: Dockerized Certificate Expiration Checker
-The goal of this challenge is to build a tool in docker that can be used to automate identification of expired and soon-to-be expired HTTPS certificates associated with Beyond, Inc.
+The goal of this challenge is to build a tool in docker that can be used to automate identification of expired and soon-to-be expired HTTPS certificates within the digital properties associated with Beyond, Inc.
 This challenge has a few components.
 
 1.) Identify which public subnets belong to Beyond, Inc.
